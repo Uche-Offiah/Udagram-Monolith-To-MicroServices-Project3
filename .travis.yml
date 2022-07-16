@@ -19,7 +19,7 @@ script:
   - docker-compose -f docker-compose-build.yaml build --parallel
   - docker tag udagram-api-user uchechukwu/udagram-api-user:latest
   - docker tag udagram-api-feed uchechukwu/udagram-api-feed:latest
-  - docker tag udagram-frontend:local uchechukwu/udagram-frontend:local
+  - docker tag udagram-frontend uchechukwu/udagram-frontend:latest
   - docker tag reverseproxy uchechukwu/reverseproxy:latest
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.

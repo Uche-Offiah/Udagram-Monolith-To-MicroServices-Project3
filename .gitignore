@@ -35,6 +35,9 @@ logfile
 Thumbs.db
 UserInterfaceState.xcuserstate
 node_modules
+aws-secret.yaml
+env-secret.yaml
+env-configmap.yaml
 venv/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
